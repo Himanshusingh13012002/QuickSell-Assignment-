@@ -1,0 +1,41 @@
+.dashCardHeading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rightView,
+.leftView,
+.imageContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftView {
+  font-size: 10px;
+}
+
+.length {
+  color: #919293;
+}
+
+.dashContainer {
+  display: flex;
+  /* align-items: flex-start; */
+  /* gap: 10px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background: lavender; */
+  /* padding: 5px 10px; */
+  padding: 20px;
+}
+
+.dashCardContainer {
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-direction: column;
+  gap: 5px;
+  width: 230px;
+}
